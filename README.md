@@ -16,6 +16,7 @@
 
 <h1>Entrenadores</h1>
 <h4>Crear entrenador</h4>
+
 ```
 //POST
 //Ruta: http://localhost:8000/api/entrenadores
@@ -32,6 +33,7 @@
 
 <h1>Equipos</h1>
 <h4>Crear un equipo</h4>
+
 ```
 //POST
 //Ruta: http://localhost:8000/api/equipos
@@ -40,14 +42,15 @@
  "nombre" : "Equipo Onix", //Nombre del equipo
  "entrenadores_id" : "3" //id del entrenador
 }
-
 ```
+
 <h3>Listar equipos</h3>
 
 <h4>GET index http://localhost:8000/api/equipos</h4>
 
 <h1>Equipos de Pokemones</h1>
 <h4>Crear un equipo con maximo 3 pokemones</h4>
+
 ```
 //POST
 //Ruta: http://localhost:8000/api/equipos_pokemones
