@@ -1,4 +1,5 @@
-<h1>Desafio API rest Laravel TelePagos<h1/>
+<h1>Desafio API rest Laravel TelePagos</h1>
+    
 - Se desea armar una API que permita:
 
 - Consumir PokeApi para obtener y guardar una lista de 15 Pokemones. 
