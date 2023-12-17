@@ -9,56 +9,56 @@
 
 ------------
 
-#Crear lista de 15 pokemones
-#### GET http://localhost:8000/api/import-pokemon
-###Mostrar la lista
-#### GET http://localhost:8000/api/import-pokemon-list
+<h1>Crear lista de 15 pokemones</h1>
+<h4>GET http://localhost:8000/api/import-pokemon</h4> 
+<h3>Mostrar la lista</h3>
+<h4>GET http://localhost:8000/api/import-pokemon-list</h4> 
 
-#Entrenadores
-####Crear entrenador
+<h1>Entrenadores</h1>
+<h4>Crear entrenador</h4>
 ```
 //POST
 //Ruta: http://localhost:8000/api/entrenadores
 
 {
-	"nombre" : "Ash ketchum"
+ "nombre" : "Ash ketchum"
 }
 
 ```
-###Listar entrenadores
+<h3>Listar entrenadores</h3>
 
-####GET index http://localhost:8000/api/entrenadores
-####GET show http://localhost:8000/api/entrenadores/{id}
+<h4>GET index http://localhost:8000/api/entrenadores</h4>
+<h4>GET show http://localhost:8000/api/entrenadores/{id}</h4>
 
-#Equipos
-####Crear un equipo
+<h1>Equipos</h1>
+<h4>Crear un equipo</h4>
 ```
 //POST
 //Ruta: http://localhost:8000/api/equipos
 
 {
-	"nombre" : "Equipo Onix", //Nombre del equipo
-	"entrenadores_id" : "3" //id del entrenador
+ "nombre" : "Equipo Onix", //Nombre del equipo
+ "entrenadores_id" : "3" //id del entrenador
 }
 
 ```
-###Listar equipos
+<h3>Listar equipos</h3>
 
-####GET index http://localhost:8000/api/equipos
+<h4>GET index http://localhost:8000/api/equipos</h4>
 
-#Equipos de Pokemones
-####Crear un equipo con maximo 3 pokemones
+<h1>Equipos de Pokemones</h1>
+<h4>Crear un equipo con maximo 3 pokemones</h4>
 ```
 //POST
 //Ruta: http://localhost:8000/api/equipos_pokemones
 
 {
-	"orden" : "1", //orden del pokemon "1", "2" o "3"
-	"pokemones_id" : "34", //id del pokemon
-	"equipos_id" : "1" //id del equipo
+ "orden" : "1", //orden del pokemon "1", "2" o "3"
+ "pokemones_id" : "34", //id del pokemon
+ "equipos_id" : "1" //id del equipo
 }
 
 ```
-###Listar equipos de pokemones
+<h3>Listar equipos de pokemones</h3>
 
-####GET index http://localhost:8000/api/equipos_pokemones
+<h4>GET index http://localhost:8000/api/equipos_pokemones</h4>
